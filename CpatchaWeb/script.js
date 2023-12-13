@@ -27,6 +27,7 @@ const clicBotonActualizar = () => {
 };
 
 const validarCaptchaConTecla = () => {
+  
   // Alternar la clase "disabled" en el botón de envío según si el campo de entrada del captcha está vacío o no
   botonEnviar.classList.toggle("disabled", !cajaEntradaCaptcha.value);
 
